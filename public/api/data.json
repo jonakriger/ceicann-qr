@@ -1,0 +1,349 @@
+{
+    "dataSeed": [
+        {
+            "id": "9vn3mba4",
+            "slug": "white-widow",
+            "name": "White Widow",
+            "content": "White Widow es una cepa híbrida de cannabis que se ha vuelto muy popular en todo el mundo. Esta cepa tiene un alto nivel de THC y un sabor fuerte y dulce.",
+            "labels": {
+                "thc": "20%",
+                "cbd": "0.2%"
+            },
+            "image": {
+                "source_url": "/img/seed-img-white-widow.jpg",
+                "alt_text": "Foto cogollo White Widow"
+            },
+            "features": [
+                {
+                    "slug": "type",
+                    "label": "Tipo de Semilla",
+                    "title": "Híbrido Sativa / Indica",
+                    "content": "La cepa White Widow es una mezcla de una cepa sativa brasileña y una cepa índica del sur de la India."
+                },
+                {
+                    "slug": "variety",
+                    "label": "Variedad de la Semilla",
+                    "title": "Feminizada",
+                    "content": "La variedad de semilla White Widow disponible es feminizada."
+                },
+                {
+                    "slug": "bloom",
+                    "label": "Tiempo de Floración",
+                    "title": "8-9 semanas",
+                    "content": "El tiempo de floración de la cepa White Widow es de alrededor de 8-9 semanas."
+                },
+                {
+                    "slug": "hardest",
+                    "label": "Producción / Cosecha",
+                    "title": "Rendimiento moderado",
+                    "content": "La producción de la cepa White Widow es moderada."
+                },
+                {
+                    "slug": "zones",
+                    "label": "Zonas Climáticas",
+                    "title": "Soleado y Mediterráneo",
+                    "content": "La cepa White Widow prefiere climas soleados y mediterráneos."
+                },
+                {
+                    "slug": "uses",
+                    "label": "Usos Terapéuticos",
+                    "title": "Alivio del Dolor y el Estrés",
+                    "content": "La cepa White Widow se ha utilizado para aliviar el dolor y el estrés."
+                }
+            ]
+        },
+        {
+            "id": "fV1iLiHt",
+            "slug": "charlottes-web",
+            "name": "Charlotte's Web",
+            "content": "La Charlotte's Web es una cepa de cannabis con bajo contenido de THC y alto contenido de CBD. Esta variedad se caracteriza por sus efectos relajantes y su capacidad para aliviar el dolor y la ansiedad sin causar los efectos psicoactivos asociados con el THC.",
+            "labels": {
+                "thc": "0.3%",
+                "cbd": "17%"
+            },
+            "image": {
+                "source_url": "/img/seed-img-charlotte-s-web.jpg",
+                "alt_text": "Cogollo de Charlotte's Web"
+            },
+            "features": [
+                {
+                    "slug": "type",
+                    "label": "Tipo de Semilla",
+                    "title": "Híbrido Sativa / Indica",
+                    "content": "La cepa Charlotte's Web es una mezcla de las cepas industrial de cáñamo y la variedad desconocida."
+                },
+                {
+                    "slug": "variety",
+                    "label": "Variedad de la Semilla",
+                    "title": "Feminizada",
+                    "content": "La variedad de semilla Charlotte's Web disponible es feminizada."
+                },
+                {
+                    "slug": "bloom",
+                    "label": "Tiempo de Floración",
+                    "title": "9-10 semanas",
+                    "content": "El tiempo de floración de la cepa Charlotte's Web es de alrededor de 9-10 semanas."
+                },
+                {
+                    "slug": "hardest",
+                    "label": "Producción / Cosecha",
+                    "title": "Rendimiento bajo",
+                    "content": "La producción de la cepa Charlotte's Web es baja."
+                },
+                {
+                    "slug": "zones",
+                    "label": "Zonas Climáticas",
+                    "title": "Clima templado",
+                    "content": "La cepa Charlotte's Web se puede cultivar en climas templados."
+                },
+                {
+                    "slug": "uses",
+                    "label": "Usos Terapéuticos",
+                    "title": "Alivio del dolor, la ansiedad y las convulsiones",
+                    "content": "La cepa Charlotte's Web se ha utilizado para aliviar el dolor, la ansiedad y las convulsiones."
+                }
+            ]
+        },
+        {
+            "id": "3mAdGvTS",
+            "slug": "tangie-lemon-skunk-f2",
+            "name": "(Tangie x lemon Skunk) F2",
+            "content": "La (Tangie x lemon Skunk) F2 es una cepa híbrida de cannabis con un sabor y aroma cítrico y terroso. Esta variedad se caracteriza por su alto contenido de THC y sus efectos energéticos y eufóricos.",
+            "labels": {
+                "thc": "20%",
+                "cbd": "0.2%"
+            },
+            "image": {
+                "source_url": "/img/seed-img-acdc.jpg",
+                "alt_text": "ACDC"
+            },
+            "features": [
+                {
+                    "slug": "type",
+                    "label": "Tipo de Semilla",
+                    "title": "Híbrido Sativa / Indica",
+                    "content": "La cepa (Tangie x lemon Skunk) F2 es una mezcla de las cepas Tangie y Lemon Skunk."
+                },
+                {
+                    "slug": "variety",
+                    "label": "Variedad de la Semilla",
+                    "title": "Regular",
+                    "content": "La variedad de semilla (Tangie x lemon Skunk) F2 disponible es regular."
+                },
+                {
+                    "slug": "bloom",
+                    "label": "Tiempo de Floración",
+                    "title": "8-9 semanas",
+                    "content": "El tiempo de floración de la cepa (Tangie x lemon Skunk) F2 es de alrededor de 8-9 semanas."
+                },
+                {
+                    "slug": "height",
+                    "label": "Altura",
+                    "title": "Altura Media / Alta",
+                    "content": "Tangie Skunk puede crecer hasta una altura de 100-150 cm en interiores y 150-200 cm en exteriores."
+                },
+                {
+                    "slug": "hardest",
+                    "label": "Producción / Cosecha",
+                    "title": "Rendimiento moderado",
+                    "content": "La producción de la cepa (Tangie x lemon Skunk) F2 es moderada."
+                },
+                {
+                    "slug": "zones",
+                    "label": "Zonas Climáticas",
+                    "title": "Soleado y Mediterráneo",
+                    "content": "La cepa (Tangie x lemon Skunk) F2 prefiere climas soleados y mediterráneos."
+                },
+                {
+                    "slug": "uses",
+                    "label": "Usos Terapéuticos",
+                    "title": "Alivio del Dolor y el Estrés",
+                    "content": "La cepa (Tangie x lemon Skunk) F2 se ha utilizado para aliviar el dolor y el estrés."
+                }
+            ]
+        }
+    ],
+    "dataInfo": [
+        {
+            "slug": "why",
+            "title": "¿Por qué hacemos esto?",
+            "content": "<p>En el año 2017, Argentina legalizó el cultivo de cannabis con fines terapéuticos y de investigación a través de la <em>ley 27.350</em>. Sin embargo, el acceso a estas plantas dista mucho de estar garantizado. El permiso monopólico que otorgan los médicos inscriptos en el registro del programa de cannabis, conocido como <strong>REPROCANN</strong>, tiene costos que oscilan entre los $5.000 y los $25.000, sin tener criterios claros en los montos que cobran. Además, las semillas fiscalizadas por el <strong>INASE</strong> tienen precios que pueden llegar a los $11.000 y $8.000 por un esqueje, valores muy superiores a los de las semillas importadas de países donde el comercio es legal.</p><p>Estos altos costos hacen que el cultivo de cannabis con fines terapéuticos sea inaccesible para la mayoría de las personas que lo requieren. Es por eso que <span style='text-decoration: underline;'>hemos decidido distribuir semillas de forma gratuita, obtenidas a través del intercambio de alimentos no perecederos</span> que son destinados a un comedor en Santa Rosa. De esta manera, buscamos garantizar el acceso a estas plantas para aquellos que menos tienen, para que el cultivo sea una realidad y no un privilegio de un sector económicamente más pudiente.</p><p>Antes de germinar las semillas, es importante que se consulte sobre las leyes y permisos que permiten el autocultivo. En este sentido, hay médicos y asociaciones que sólo cobran la consulta médica, sin adicionales para la inscripción al registro nacional (REPROCANN).</p>"
+        },
+        {
+            "slug": "ceicann",
+            "title": "¿Qué es CEICann?",
+            "content": "<p>CEICann (Centro de Estudios Interdisciplinarios del Cannabis), es una Asociación Civil conformada por biólogos, científicos, abogados, usuarios y comunicadores. Nuestro principal objetivo es el estudio del cannabis en todas sus disciplinas, ya que consideramos que esta planta tiene un enorme potencial terapéutico y medicinal.</p><p>Nos interesa profundizar en el conocimiento científico del cannabis, su historia, su cultura y su impacto en la sociedad. Queremos generar información de calidad que pueda ser utilizada tanto por la comunidad científica como por los usuarios y el público en general.</p><p>En CEICann nos preocupa el acceso limitado al cannabis con fines terapéuticos y estamos comprometidos en promover una regulación más justa y accesible.</p><p>Creemos que el cannabis es una planta que puede mejorar la calidad de vida de muchas personas, y por eso trabajamos en conjunto desde una perspectiva interdisciplinaria, para avanzar en el conocimiento y la difusión de información de calidad sobre esta planta.</p>"
+        },
+        {
+            "slug": "colaboration",
+            "title": "¿Quienes Participan y Colaboran?",
+            "content": "<p>Dentro de esta acción que realizamos, contamos con el apoyo y participación de:</p>",
+            "logos": [
+                {
+                    "name": "PampaSeed",
+                    "source_url": {
+                        "light": "/img/logo-pampa-seed-light.svg",
+                        "dark": "/img/logo-pampa-seed-dark.svg"
+                    },
+                    "alt_text": "Logo PampaSeed"
+                },
+                {
+                    "name": "Pampa Fertil",
+                    "url": "https://www.instagram.com/pampafertil502/",
+                    "target": "_blank",
+                    "title": "Visitar el Instagram de Pampa Fertil",
+                    "rel": "noopener noreferrer",
+                    "source_url": {
+                        "light": "/img/logo-pampa-fertil-light.svg",
+                        "dark": "/img/logo-pampa-fertil-dark.svg"
+                    },
+                    "alt_text": "Logo Pampa Fertil"
+                },
+                {
+                    "name": "UNLPam",
+                    "url": "https://www.unlpam.edu.ar/",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer",
+                    "source_url": {
+                        "light": "/img/logo-unlpam-light.svg",
+                        "dark": "/img/logo-unlpam-dark.svg"
+                    },
+                    "alt_text": "Logo UNLPam"
+                }
+            ]
+        }
+    ],
+    "dataHelp": [
+        {
+            "slug": "help",
+            "title": "Enlaces de Ayuda:",
+            "content": "<p>Estos enlaces te pueden ayudar, y orientar en cuanto a las normativas que encierran al autocultivo de cannabis.</p>",
+            "list": [
+                {
+                    "url": "https://www.argentina.gob.ar/normativa/nacional/ley-23737-1989-138",
+                    "title": "Ir a: Ley 23.737: NARCOTRAFICO",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer",
+                    "label": "Ley 23.737: NARCOTRAFICO",
+                    "desc": "Establece el marco regulatorio para la producción, distribución y consumo de sustancias estupefacientes y psicotrópicas en Argentina."
+                },
+                {
+                    "url": "http://servicios.infoleg.gob.ar/infolegInternet/anexos/270000-274999/273801/norma.htm",
+                    "title": "Ir a Ley de Cannabis Medicinal Nº 27.350",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer",
+                    "label": "Ley 27.350: CANNABIS MEDICINAL",
+                    "desc": "Establece el marco regulatorio para la investigación médica y científica del cannabis y sus derivados, y permite el acceso legal a tratamientos médicos a base de cannabis."
+                },
+                {
+                    "url": "https://www.argentina.gob.ar/noticias/ley-de-desfederalizacion-de-la-tenencia-de-estupefacientes-que-cambia-y-que-no",
+                    "title": "Ir a Ley de Desfederalización de la Tenencia de Estupefacientes Nº 27.573",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer",
+                    "label": "Ley Nº 27.573: DESFEDERALIZACIÓN DE LA TENENCIA DE ESTUPEFACIENTES",
+                    "desc": "Modifica la Ley de Estupefacientes Nº 23.737 y establece que la tenencia de drogas para consumo personal no será perseguida penalmente en la mayoría de los casos."
+                },
+                {
+                    "url": "https://www.argentina.gob.ar/noticias/ley-de-drogas-de-emergencia",
+                    "title": "Ir a Ley de Drogas de Emergencia Nº 26.052",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer",
+                    "label": "Ley Nº 26.052: DROGAS DE EMERGENCIA",
+                    "desc": "Establece medidas de emergencia para combatir el tráfico de drogas y la violencia asociada en zonas urbanas."
+                },
+                {
+                    "url": "https://www.argentina.gob.ar/salud/reprocann",
+                    "title": "Ir a Programa Nacional de Cannabis (REPROCANN)",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer",
+                    "label": "REPROCANN",
+                    "desc": "Tiene como objetivo regular la producción y distribución de cannabis para uso medicinal, promover la investigación científica y médica del cannabis, y fomentar el desarrollo de la industria del cannabis en el país."
+                },
+                {
+                    "url": "https://www.argentina.gob.ar/salud/adicciones/pronad",
+                    "title": "Ir a Programa Nacional de Prevención y Control del Uso Indebido de Drogas (PRONAD)",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer",
+                    "label": "PRONAD",
+                    "desc": "Programa Nacional de Prevención y Control del Uso Indebido de Drogas (PRONAD)."
+                },
+                {
+                    "url": "https://cannabis.santarosa.gob.ar/",
+                    "title": "Ir a Registro de Usuarios - Santa Rosa",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer",
+                    "label": "Registro de Usuarios - Santa Rosa",
+                    "desc": "Sistema de información personal sistematizada, concerniente al cultivo de cannabis con fines terapéuticos."
+                }
+            ]
+        },
+        {
+            "slug": "interest",
+            "title": "Te puede interesar:",
+            "content": "<p>Aquí hay algunas páginas que te pueden ayudar también.</p>",
+            "list": [
+                {
+                    "url": "https://www.facebook.com/@CEICann-100064147779375/?paipv=0&eav=AfaDIn3lGCvJ8qhtPyBH3EJwGfZlU40RfNd7iUctRZsq9bd8VCzZqrj75rqq8EzVxF0&_rdr",
+                    "title": "Ir al Facebook de CEICann",
+                    "label": "CEICann"
+                },
+                {
+                    "url": "https://www.instagram.com/pampafertil502/",
+                    "title": "Ir al Instagram de Pampa Fértil",
+                    "label": "Pampa Fértil"
+                },
+                {
+                    "url": "https://www.instagram.com/pampafertil502/",
+                    "title": "Ir al Instagram de PampaSeed",
+                    "label": "PampaSeed"
+                },
+                {
+                    "url": "https://www.unlpam.edu.ar/catedra-libre-cannabis",
+                    "title": "Ir a UNLPam",
+                    "label": "Cátedra Libre del Cannabis - UNLPam"
+                },
+                {
+                    "url": "https://revistathc.com/",
+                    "title": "Ir a Revista THC · Cultura Cannabica",
+                    "label": "Revista THC · Cultura Cannabica"
+                }
+            ]
+        },
+        {
+            "slug": "bibliography",
+            "title": "Bibliografia",
+            "books": [
+                {
+                    "title": "Cannabis: Evolution and Ethnobotany",
+                    "authors": ["Robert C. Clarke", "Mark D. Merlin"],
+                    "year": "2013"
+                },
+                {
+                    "title": "The Health Effects of Cannabis and Cannabinoids: The Current State of Evidence and Recommendations for Research",
+                    "authors": ["National Academies of Sciences, Engineering, and Medicine"],
+                    "year": "2017"
+                },
+                {
+                    "title": "Marijuana Legalization: What Everyone Needs to Know",
+                    "authors": ["Jonathan P. Caulkins", "Beau Kilmer", "Mark A.R. Kleiman", "Robert J. MacCoun"],
+                    "year": "2016"
+                },
+                {
+                    "title": "Cannabis Pharmacy: The Practical Guide to Medical Marijuana",
+                    "authors": ["Michael Backes"],
+                    "year": "2014"
+                },
+                {
+                    "title": "Cannabis: Historia, Cultivo y Uso Terapeutico",
+                    "authors": ["Daniel Oliveto"],
+                    "year": "2022"
+                },
+                {
+                    "title": "Cannabis Medicinal en La Provincia de La Pampa",
+                    "authors": ["Ayelen Vitale", "Daniel Oliveto"],
+                    "year": "2018"
+                }
+            ]
+        }
+    ]
+}

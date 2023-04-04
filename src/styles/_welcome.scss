@@ -1,0 +1,21 @@
+/* _welcome.scss */
+
+section.c-section.c-section-fallback {
+    h1.welcome-title {
+        color: var(--bs-primary);
+        font-size: 5rem;
+        letter-spacing: -7px;
+    }
+}
+
+// =============================================================================
+//   Color
+// =============================================================================
+
+@include color-mode(dark) {
+    section.c-section.c-section-fallback {
+        h1.welcome-title {
+            color: var(--bs-white);
+        }
+    }
+}

@@ -1,0 +1,30 @@
+/* _qr.scss */
+
+section.c-section-qrcodes {
+    .card-qr {
+        --bs-card-spacer-y: 1.5rem;
+        --bs-card-spacer-x: 1rem;
+        --bs-card-border-width: 1px;
+        --bs-card-border-color: var(--bs-gray-500);
+        --bs-card-border-radius: 0.25rem;
+        --bs-card-cap-padding-y: 0.5rem;
+        --bs-card-cap-padding-x: 1rem;
+        --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0);
+        --bs-card-cap-color: var(--bs-success);
+        --bs-card-color: var(--bs-body-color);
+        --bs-card-bg: var(--bs-body-bg);
+        --bs-card-heihgt: 100%;
+        font-size: 0.85rem;
+        .card-label {
+            color: var(--bs-gray-700);
+        }
+        .card-link {
+            --bs-link-color-rgb: var(--bs-body-color-rgb);
+        }
+        /*  */
+        .btn.btn-primary {
+            --bs-btn-padding-x: 0.75rem;
+            --bs-btn-padding-y: 0.25rem;
+        }
+    }
+}

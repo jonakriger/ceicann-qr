@@ -1,0 +1,135 @@
+/* _section-seed.scss */
+
+section.c-section {
+    &.c-section-seed {
+        /*  */
+        .card {
+            &.card-seed {
+                --bs-card-spacer-y: 1.5rem;
+                --bs-card-spacer-x: 0rem;
+                --bs-card-title-spacer-y: 0.5rem;
+                --bs-card-title-color: var(--bs-body-color);
+                --bs-card-subtitle-spacer-y: 1rem;
+                --bs-card-subtitle-color: var(--bs-gray-600);
+                --bs-card-border-width: 0;
+                --bs-card-border-color: transparent;
+                --bs-card-border-radius: 0;
+                --bs-card-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+                --bs-card-inner-border-radius: 0;
+                box-shadow: none;
+                .card-img {
+                    width: auto;
+                    margin-left: calc(-1 * 1.5rem / 2);
+                    margin-right: calc(-1 * 1.5rem / 2);
+                    box-shadow: var(--bs-card-box-shadow);
+                }
+                .card-title {
+                    font-size: 1.1rem;
+                }
+                .card-subtitle {
+                    font-size: 0.85rem;
+                    margin-bottom: var(--bs-card-subtitle-spacer-y);
+                }
+                .card-text {
+                    font-size: 0.9rem;
+                    line-height: 1.1;
+                }
+                .list-group {
+                    &.list-group-card {
+                        --bs-list-group-color: var(--bs-body-color);
+                        --bs-list-group-bg: var(--bs-body-bg);
+                        --bs-list-group-border-color: var(--bs-primary);
+                        --bs-list-group-border-width: var(--bs-border-width);
+                        --bs-list-group-border-radius: 0;
+                        --bs-list-group-item-padding-x: 0rem;
+                        --bs-list-group-item-padding-y: 1rem;
+                        --bs-list-group-icon-color: rgba(var(--bs-primary-rgb), 0.75);
+                        --bs-list-group-icon-size: 2;
+                        --bs-list-group-label-color: var(--bs-primary);
+                        --bs-list-group-title-color: var(--bs-body-color);
+                        --bs-list-group-text-color: var(--bs-gray-700);
+                        .list-group-item-icon {
+                            color: var(--bs-list-group-icon-color);
+                            width: calc(var(--bs-list-group-icon-size) * 1rem);
+                            height: calc(var(--bs-list-group-icon-size) * 1rem);
+                        }
+                        .list-group-item-label {
+                            border-bottom: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+                            color: var(--bs-list-group-label-color);
+                            font-size: 0.9rem;
+                            font-weight: 400;
+                            line-height: calc(var(--bs-list-group-icon-size) * 1em);
+                            text-transform: uppercase;
+                        }
+                        .list-group-item-title {
+                            color: var(--bs-list-group-title-color);
+                            font-size: 1.1rem;
+                            font-weight: 600;
+                            margin: 0 0 0.25rem;
+                        }
+                        .list-group-item-desc {
+                            color: var(--bs-list-group-text-color);
+                            font-size: 0.85rem;
+                            line-height: 1.2;
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    section.c-section {
+        &.c-section-seed {
+            /*  */
+            .card {
+                &.card-seed {
+                    --bs-card-spacer-y: 3rem;
+                    --bs-card-box-shadow: none;
+                    .card-img {
+                        width: 100%;
+                        margin: var(--bs-card-spacer-y) 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 558
+
+// =============================================================================
+//   Color
+// =============================================================================
+
+@include color-mode(dark) {
+    section.c-section {
+        &.c-section-seed {
+            /*  */
+            .card {
+                &.card-seed {
+                    --bs-card-title-color: var(--bs-body-color);
+                    --bs-card-subtitle-color: var(--bs-gray-400);
+                    .card-title strong {
+                        color: var(--bs-success) !important;
+                    }
+                    .list-group {
+                        &.list-group-card {
+                            --bs-list-group-color: var(--bs-body-color);
+                            --bs-list-group-bg: var(--bs-body-bg);
+                            --bs-list-group-border-color: var(--bs-success);
+                            --bs-list-group-icon-color: rgba(var(--bs-success-rgb), 0.75);
+                            --bs-list-group-label-color: var(--bs-success);
+                            --bs-list-group-title-color: var(--bs-body-color);
+                            --bs-list-group-text-color: var(--bs-gray-400);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

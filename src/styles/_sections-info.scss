@@ -1,0 +1,45 @@
+/* _section-info.scss */
+
+section.c-section {
+    /*  */
+    &.c-section-logo {
+        padding: 25vh 0 0;
+        svg.logo-ceicaan {
+            path.leaf,
+            path.text {
+                fill: var(--bs-success);
+            }
+            path.border,
+            path.slogan {
+                fill: var(--bs-primary);
+            }
+        }
+    }
+}
+
+// 284
+
+// =============================================================================
+//   Color
+// =============================================================================
+
+// @include color-mode(light) {
+// }
+
+@include color-mode(dark) {
+    section.c-section {
+        /*  */
+        &.c-section-logo {
+            svg.logo-ceicaan {
+                path.leaf,
+                path.text {
+                    fill: var(--bs-white);
+                }
+                path.border,
+                path.slogan {
+                    fill: var(--bs-success);
+                }
+            }
+        }
+    }
+}

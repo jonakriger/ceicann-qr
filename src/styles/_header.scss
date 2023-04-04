@@ -1,0 +1,41 @@
+/* _header.scss */
+
+nav.c-navbar {
+    &.c-navbar-header {
+        --bs-navbar-padding-x: 0;
+        --bs-navbar-padding-y: 0rem;
+        --bs-navbar-color: var(--bs-body-color);
+        --bs-navbar-hover-color: var(--bs-primary);
+        --bs-navbar-active-color: var(--bs-primary);
+        --bs-navbar-nav-link-padding-x: 0.5rem;
+        box-shadow: 0 0.25rem 1rem rgba(var(--bs-body-color-rgb), 0.15);
+        min-height: 3rem;
+        .btn-primary {
+            --bs-btn-padding-y: 0.2rem;
+            --bs-btn-padding-x: 0.75rem;
+            --bs-btn-font-size: 0.8rem;
+            --bs-btn-font-weight: 600;
+            --bs-btn-border-radius: 50rem;
+            --bs-btn-disabled-opacity: 1;
+            margin-left: auto;
+        }
+    }
+}
+
+// =============================================================================
+//   Color
+// =============================================================================
+
+@include color-mode(dark) {
+    nav.c-navbar {
+        &.c-navbar-header {
+            --bs-navbar-color: var(--bs-white);
+            --bs-navbar-hover-color: rgba(var(--bs-success-rgb), 0.5);
+            --bs-navbar-active-color: rgba(var(--bs-success-rgb), 1);
+            .btn-primary {
+                --bs-btn-disabled-bg: var(--bs-success);
+                --bs-btn-disabled-border-color: var(--bs-success);
+            }
+        }
+    }
+}

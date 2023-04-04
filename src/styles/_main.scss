@@ -1,0 +1,7 @@
+/* _main.scss */
+
+main.c-main {
+    @extend %block-wide;
+    padding-top: 3rem;
+    padding-bottom: calc(25vh + 3rem);
+}

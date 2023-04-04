@@ -1,0 +1,90 @@
+/* _navigation.scss */
+
+nav.c-navbar {
+    &.c-navbar-menu {
+        --bs-navbar-padding-x: 0;
+        --bs-navbar-padding-y: 0;
+        --bs-navbar-color: var(--bs-body-color);
+        --bs-navbar-hover-color: var(--bs-primary);
+        --bs-navbar-active-color: var(--bs-primary);
+        --bs-navbar-nav-link-padding-x: 0.5rem;
+        box-shadow: 0 -0.25rem 1rem rgba(var(--bs-body-color-rgb), 0.25);
+        min-height: 3rem;
+        ul.navbar-nav {
+            --bs-nav-link-font-size: 0.85rem;
+            --bs-nav-link-font-weight: 600;
+            li.nav-item {
+                a.nav-link {
+                    @extend %flex-column-wide;
+                    gap: 0.25rem;
+                    text-align: center;
+                    font-style: italic;
+                    span.nav-link-icon {
+                        @extend %flex-column-wide;
+                        width: 2rem;
+                        height: 2rem;
+                        > svg {
+                            position: absolute;
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                    /*  */
+                    &[data-theme-active="light"] {
+                        span.nav-link-icon {
+                            > svg.d-icon-sunny {
+                                opacity: 0;
+                                visibility: hidden;
+                            }
+                        }
+                    }
+                    /*  */
+                    &[data-theme-active="dark"] {
+                        span.nav-link-icon {
+                            > svg.d-icon-moon {
+                                opacity: 0;
+                                visibility: hidden;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    nav.c-navbar {
+        &.c-navbar-menu {
+            ul.navbar-nav {
+                li.nav-item {
+                    flex-basis: 0;
+                    flex-grow: 1;
+                    text-align: center;
+                    a.nav-link {
+                        span.nav-link-icon {
+                            width: 1.5rem;
+                            height: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// =============================================================================
+//   Color
+// =============================================================================
+
+@include color-mode(dark) {
+    nav.c-navbar {
+        &.c-navbar-menu {
+            --bs-navbar-color: var(--bs-body-color);
+            --bs-navbar-hover-color: rgba(var(--bs-success-rgb), 0.5);
+            --bs-navbar-active-color: rgba(var(--bs-success-rgb), 1);
+        }
+    }
+}
+
+// 76

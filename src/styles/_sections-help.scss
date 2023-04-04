@@ -1,0 +1,97 @@
+/* _section-help.scss */
+
+section.c-section {
+    .list-group {
+        &.list-group-links {
+            --bs-list-group-color: var(--bs-body-color);
+            --bs-list-group-bg: var(--bs-body-bg);
+            --bs-list-group-border-color: transparent;
+            --bs-list-group-border-width: 0;
+            --bs-list-group-border-radius: 0;
+            --bs-list-group-item-padding-x: 0rem;
+            --bs-list-group-item-padding-y: 0.5rem;
+            margin-top: 1rem;
+            .list-group-item-icon {
+                width: 1.35rem;
+                height: 1.35rem;
+            }
+            a.btn.btn-link {
+                --bs-btn-padding-x: 0rem;
+                --bs-btn-padding-y: 0rem;
+                --bs-btn-font-size: 1rem;
+                --bs-btn-font-weight: 500;
+                --bs-btn-line-height: 1.35;
+                --bs-btn-border-width: 0;
+                --bs-btn-border-radius: 0rem;
+                text-decoration: none;
+                text-align: left;
+                letter-spacing: -0.25px;
+            }
+            p.list-group-item-desc {
+                color: var(--bs-gray-700);
+                font-size: 0.85rem;
+                font-style: italic;
+                margin: 0 0 0.5rem;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &.list-group-text {
+            --bs-list-group-color: var(--bs-body-color);
+            --bs-list-group-bg: var(--bs-body-bg);
+            --bs-list-group-border-color: transparent;
+            --bs-list-group-border-width: 0;
+            --bs-list-group-border-radius: 0;
+            --bs-list-group-item-padding-x: 0rem;
+            --bs-list-group-item-padding-y: 0rem;
+            --bs-list-group-font-size: 0.75rem;
+            margin-top: 1.5rem;
+            > li.list-group-item {
+                &::before {
+                    color: var(--bs-gray-600);
+                    font-size: var(--bs-list-group-font-size);
+                    margin-right: 0.25rem;
+                }
+                > small {
+                    font-size: var(--bs-list-group-font-size);
+                    > span {
+                        font-size: 90%;
+                        color: var(--bs-gray-600);
+                    }
+                }
+            }
+        }
+    }
+    /*  */
+    &.c-section-help {
+        padding-top: 25vh;
+    }
+}
+
+// 269
+
+// =============================================================================
+//   Color
+// =============================================================================
+
+@include color-mode(dark) {
+    section.c-section {
+        .list-group {
+            &.list-group-links {
+                --bs-list-group-color: var(--bs-body-color);
+                --bs-list-group-bg: var(--bs-body-bg);
+                .list-group-item-icon {
+                    color: var(--bs-success) !important;
+                }
+                a.btn.btn-link {
+                    --bs-btn-color: rgba(var(--bs-success-rgb), 1);
+                    --bs-btn-hover-color: rgba(var(--bs-success-rgb), 0.75);
+                }
+                p.list-group-item-desc {
+                    color: var(--bs-gray-400);
+                }
+            }
+        }
+    }
+}
