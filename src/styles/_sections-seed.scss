@@ -2,6 +2,7 @@
 
 section.c-section {
     &.c-section-seed {
+        overflow: hidden;
         /*  */
         .card {
             &.card-seed {
@@ -85,6 +86,7 @@ section.c-section {
 @include media-breakpoint-up(md) {
     section.c-section {
         &.c-section-seed {
+            overflow: visible;
             /*  */
             .card {
                 &.card-seed {
